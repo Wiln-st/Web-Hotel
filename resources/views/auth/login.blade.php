@@ -233,7 +233,7 @@
         <!-- Register Link -->
         <p class="text-center text-xs text-gray-400 mt-6">
             Belum punya akun?
-            <a href="register.html" class="text-primary font-semibold hover:underline">Daftar</a>
+            <a href="/register" class="text-primary font-semibold hover:underline">Daftar</a>
         </p>
     </div>
 
@@ -261,7 +261,7 @@
             const password = document.getElementById('password').value.trim();
             if (username && password) {
                 // Simple redirect to dashboard (no backend)
-                window.location.href = 'index.html';
+                window.location.href = '/dashboard';
             }
         }
     </script>
